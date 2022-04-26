@@ -1,5 +1,5 @@
 import easy_object as eo
-a = 'hello'
+a = 'hello world'
 path = 'testing_file'
 eo.osave(path,a)
 

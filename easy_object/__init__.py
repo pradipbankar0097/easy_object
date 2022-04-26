@@ -1,7 +1,7 @@
 import pickle
 
 def osave(path: str,obj: object):
-    file = open(path, 'ab')
+    file = open(path, 'wb')
     pickle.dump(obj, file)
     file.close()
     
