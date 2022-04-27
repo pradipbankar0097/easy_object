@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
   name = 'easy_object',
   packages = ['easy_object'],
-  version = '0.1',
+  version = '0.2',
   license='MIT',
   description = 'For easy serialization, de-serialization of objects and many other functionalities',
   author = 'Pradip Bankar',
